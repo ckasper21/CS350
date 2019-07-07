@@ -1,0 +1,16 @@
+Chris Kasper
+CS 350 - Lab 1 AlarmClockRadio
+
+Files:
+------
+Time.java
+Clock.java
+Radio.java
+Station.java
+AlarmClock.java
+AlarmClockRadio.java
+main.java
+
+How to run:
+1. Compile the following files using javac - "javac *.java"
+2. Execute the main driver - "java main"

@@ -1,0 +1,24 @@
+Debugger: Chris Kasper
+CS350 - Lab 3
+
+Test files:
+-----------
+PennsylvaniaTaxTest.java
+CoinPackTest.java
+BillPackTest.java
+DrawerTest.java
+CashRegisterTest.java
+
+Location of bugs:
+-----------------
+    1. CoinPack.java - line 54
+        - Pennies is set to the argument + 5, rather then just the argument
+        - Found using setPennies() Test in CoinPackTest
+
+    2. Drawer.java - line 52
+        - Random call can initialize BillPack as an empty one
+        - Found using createDrawer_CoinPackBillPack() Test in DrawerTest
+
+    3. Drawer.java - line 118
+        - Random call can change ones amount to 100
+        - Found using depositBills() Test in DrawerTest
